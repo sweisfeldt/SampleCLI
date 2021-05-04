@@ -1,0 +1,12 @@
+<http-action actionType="1"
+    eTag="&quot;1a82-54186f405d7c0:dtagent10213210407103252HO3c&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 17 Nov 2016 22:45:58 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="" path="/views/map" postType="1" serverUid="host"
+    slaProfileEnabled="false" uid="4bf4664f-8dc4-463f-8e4f-7d847694595e" useKeepAlive="false">
+    <responseHeaders/>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
