@@ -1,0 +1,228 @@
+<http-page executeResourcesDynamically="false"
+    name="/platform/oauth/token" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@incident@reporter/%resources%/recorded-artifacts/a1d70203-e653-4613-bad3-a140a0c391e0.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="a1d70203-e653-4613-bad3-a140a0c391e0">
+    <embedded-action>7ee0f163-4415-4dcd-affa-68cd2d86e9e8</embedded-action>
+    <embedded-action>4ad9e12b-1fd9-4eaf-9b5b-0605a34652e3</embedded-action>
+    <embedded-action>a3acccce-3012-4b5e-9d97-1c28e2012b98</embedded-action>
+    <embedded-action>3b67818a-1016-4ac7-9600-08affa0b5d87</embedded-action>
+    <embedded-action>0545c9c6-1cea-44af-9adb-757eae0107cb</embedded-action>
+    <embedded-action>41f77156-7c71-4b12-ac48-a422542d29d0</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_4d22f79a-490c-4c6b-a7e4-7def3801b670.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/platform/oauth/token"
+    path="/platform/oauth/token" postType="4"
+    recordedArtifactZipFileName="team/vus/@incident@reporter/%resources%/recorded-artifacts/a1d70203-e653-4613-bad3-a140a0c391e0.zip"
+    recordedResponseCode="200" responseSize="120" serverUid="TestServer"
+    slaProfileEnabled="false" uid="7ee0f163-4415-4dcd-affa-68cd2d86e9e8" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_10589231-d8e5-4173-b1d1-5e2c474e5d3b</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_10589231-d8e5-4173-b1d1-5e2c474e5d3b.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Content-Type" value="application/json;charset=UTF-8"/>
+    <header name="Cookie" value="dtCookie=v_4_srv_2_sn_6D8241707C009D7FC69BBB8CD4E34381_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1; rxVisitor=16184504849114EVV887FQ9OMU35II8U1IAL7GNJUUPEC; dtSa=-; dtLatC=6; rxvt=1620870800513|1620868999414; dtPC=2$268999403_832h20vNBOGUBPAURHPUFCGPGTUOULKUSKKKTAR-0e3"/>
+    <header name="Host" value="54.158.203.46"/>
+    <header name="Origin" value="http://54.158.203.46"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://54.158.203.46/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36"/>
+    <header name="x-dtpc" value="2$268999403_832h20vNBOGUBPAURHPUFCGPGTUOULKUSKKKTAR-0e3"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Thu, 13 May 2021 01:23:36 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+X-Powered-By: PHP/7.0.31&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: Authorization, Content-type&#xd;
+Server-Timing: dtRpid;desc="1160367380"&#xd;
+Timing-Allow-Origin: *&#xd;
+Content-Length: 120&#xd;
+Content-Type: application/json</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"grant_type":"client_credentials","client_id":"ushahidiui","client_secret":"35e7f0bca957836d05ca0492211b0ac707671261","scope":"posts media forms api tags savedsearches sets users stats layers config messages notifications contacts roles permissions csv"}]]></textPostContent>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/platform/oauth/token"
+    path="/platform/oauth/token" postType="4"
+    recordedArtifactZipFileName="team/vus/@incident@reporter/%resources%/recorded-artifacts/a1d70203-e653-4613-bad3-a140a0c391e0.zip"
+    recordedResponseCode="200" responseSize="120" serverUid="TestServer"
+    slaProfileEnabled="false" uid="4ad9e12b-1fd9-4eaf-9b5b-0605a34652e3" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_e2bcbacf-e422-418d-80fd-67ba52a4e90f</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_e2bcbacf-e422-418d-80fd-67ba52a4e90f.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Content-Type" value="application/json;charset=UTF-8"/>
+    <header name="Cookie" value="dtCookie=v_4_srv_2_sn_6D8241707C009D7FC69BBB8CD4E34381_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1; rxVisitor=16184504849114EVV887FQ9OMU35II8U1IAL7GNJUUPEC; dtSa=-; dtLatC=6; rxvt=1620870800513|1620868999414; dtPC=2$268999403_832h20vNBOGUBPAURHPUFCGPGTUOULKUSKKKTAR-0e3"/>
+    <header name="Host" value="54.158.203.46"/>
+    <header name="Origin" value="http://54.158.203.46"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://54.158.203.46/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36"/>
+    <header name="x-dtpc" value="2$268999403_832h20vNBOGUBPAURHPUFCGPGTUOULKUSKKKTAR-0e3"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Thu, 13 May 2021 01:23:36 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+X-Powered-By: PHP/7.0.31&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: Authorization, Content-type&#xd;
+Server-Timing: dtRpid;desc="870559498"&#xd;
+Timing-Allow-Origin: *&#xd;
+Content-Length: 120&#xd;
+Content-Type: application/json</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"grant_type":"client_credentials","client_id":"ushahidiui","client_secret":"35e7f0bca957836d05ca0492211b0ac707671261","scope":"posts media forms api tags savedsearches sets users stats layers config messages notifications contacts roles permissions csv"}]]></textPostContent>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/platform/oauth/token"
+    path="/platform/oauth/token" postType="4"
+    recordedArtifactZipFileName="team/vus/@incident@reporter/%resources%/recorded-artifacts/a1d70203-e653-4613-bad3-a140a0c391e0.zip"
+    recordedResponseCode="200" responseSize="120" serverUid="TestServer"
+    slaProfileEnabled="false" uid="a3acccce-3012-4b5e-9d97-1c28e2012b98" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_087afec9-a16b-470c-8871-11e9d5825f99</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_087afec9-a16b-470c-8871-11e9d5825f99.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Content-Type" value="application/json;charset=UTF-8"/>
+    <header name="Cookie" value="dtCookie=v_4_srv_2_sn_6D8241707C009D7FC69BBB8CD4E34381_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1; rxVisitor=16184504849114EVV887FQ9OMU35II8U1IAL7GNJUUPEC; dtSa=-; dtLatC=6; rxvt=1620870800513|1620868999414; dtPC=2$268999403_832h20vNBOGUBPAURHPUFCGPGTUOULKUSKKKTAR-0e3"/>
+    <header name="Host" value="54.158.203.46"/>
+    <header name="Origin" value="http://54.158.203.46"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://54.158.203.46/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36"/>
+    <header name="x-dtpc" value="2$268999403_832h20vNBOGUBPAURHPUFCGPGTUOULKUSKKKTAR-0e3"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Thu, 13 May 2021 01:23:36 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+X-Powered-By: PHP/7.0.31&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: Authorization, Content-type&#xd;
+Server-Timing: dtRpid;desc="-532171821"&#xd;
+Timing-Allow-Origin: *&#xd;
+Content-Length: 120&#xd;
+Content-Type: application/json</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"grant_type":"client_credentials","client_id":"ushahidiui","client_secret":"35e7f0bca957836d05ca0492211b0ac707671261","scope":"posts media forms api tags savedsearches sets users stats layers config messages notifications contacts roles permissions csv"}]]></textPostContent>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/platform/oauth/token"
+    path="/platform/oauth/token" postType="4"
+    recordedArtifactZipFileName="team/vus/@incident@reporter/%resources%/recorded-artifacts/a1d70203-e653-4613-bad3-a140a0c391e0.zip"
+    recordedResponseCode="200" responseSize="120" serverUid="TestServer"
+    slaProfileEnabled="false" uid="3b67818a-1016-4ac7-9600-08affa0b5d87" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_ffa338b7-0829-48e8-a2d8-3dc941347469</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_ffa338b7-0829-48e8-a2d8-3dc941347469.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Content-Type" value="application/json;charset=UTF-8"/>
+    <header name="Cookie" value="dtCookie=v_4_srv_2_sn_6D8241707C009D7FC69BBB8CD4E34381_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1; rxVisitor=16184504849114EVV887FQ9OMU35II8U1IAL7GNJUUPEC; dtSa=-; dtLatC=6; rxvt=1620870800513|1620868999414; dtPC=2$268999403_832h20vNBOGUBPAURHPUFCGPGTUOULKUSKKKTAR-0e3"/>
+    <header name="Host" value="54.158.203.46"/>
+    <header name="Origin" value="http://54.158.203.46"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://54.158.203.46/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36"/>
+    <header name="x-dtpc" value="2$268999403_832h20vNBOGUBPAURHPUFCGPGTUOULKUSKKKTAR-0e3"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Thu, 13 May 2021 01:23:36 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+X-Powered-By: PHP/7.0.31&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: Authorization, Content-type&#xd;
+Server-Timing: dtRpid;desc="-1738887006"&#xd;
+Timing-Allow-Origin: *&#xd;
+Content-Length: 120&#xd;
+Content-Type: application/json</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"grant_type":"client_credentials","client_id":"ushahidiui","client_secret":"35e7f0bca957836d05ca0492211b0ac707671261","scope":"posts media forms api tags savedsearches sets users stats layers config messages notifications contacts roles permissions csv"}]]></textPostContent>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/platform/oauth/token"
+    path="/platform/oauth/token" postType="4"
+    recordedArtifactZipFileName="team/vus/@incident@reporter/%resources%/recorded-artifacts/a1d70203-e653-4613-bad3-a140a0c391e0.zip"
+    recordedResponseCode="200" responseSize="120" serverUid="TestServer"
+    slaProfileEnabled="false" uid="0545c9c6-1cea-44af-9adb-757eae0107cb" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_e5114fd0-2862-47dc-a780-4cd5cdc3a828</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_e5114fd0-2862-47dc-a780-4cd5cdc3a828.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Content-Type" value="application/json;charset=UTF-8"/>
+    <header name="Cookie" value="dtCookie=v_4_srv_2_sn_6D8241707C009D7FC69BBB8CD4E34381_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1; rxVisitor=16184504849114EVV887FQ9OMU35II8U1IAL7GNJUUPEC; dtSa=-; dtLatC=6; rxvt=1620870800539|1620868999414; dtPC=2$268999403_832h21vNBOGUBPAURHPUFCGPGTUOULKUSKKKTAR-0e3"/>
+    <header name="Host" value="54.158.203.46"/>
+    <header name="Origin" value="http://54.158.203.46"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://54.158.203.46/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36"/>
+    <header name="x-dtpc" value="2$268999403_832h21vNBOGUBPAURHPUFCGPGTUOULKUSKKKTAR-0e3"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Thu, 13 May 2021 01:23:36 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+X-Powered-By: PHP/7.0.31&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: Authorization, Content-type&#xd;
+Server-Timing: dtRpid;desc="-1911966916"&#xd;
+Timing-Allow-Origin: *&#xd;
+Content-Length: 120&#xd;
+Content-Type: application/json</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"grant_type":"client_credentials","client_id":"ushahidiui","client_secret":"35e7f0bca957836d05ca0492211b0ac707671261","scope":"posts media forms api tags savedsearches sets users stats layers config messages notifications contacts roles permissions csv"}]]></textPostContent>
+</http-action>
+<http-action actionType="1" contentType="image/svg+xml"
+    eTag="&quot;e26a-5418706fa2340&quot;" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false"
+    lastModified="Thu, 17 Nov 2016 22:51:17 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/img/iconic-sprite.svg"
+    path="/img/iconic-sprite.svg" postType="2"
+    recordedArtifactZipFileName="team/vus/@incident@reporter/%resources%/recorded-artifacts/a1d70203-e653-4613-bad3-a140a0c391e0.zip"
+    recordedResponseCode="200" responseSize="57962"
+    serverUid="TestServer" slaProfileEnabled="false"
+    uid="41f77156-7c71-4b12-ac48-a422542d29d0" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_58be4cca-a109-4165-a9bf-95dd586b3adb.xml</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_58be4cca-a109-4165-a9bf-95dd586b3adb.txt</requestContentFileDescription>
+    <header name="Accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Cookie" value="dtCookie=v_4_srv_2_sn_6D8241707C009D7FC69BBB8CD4E34381_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1; rxVisitor=16184504849114EVV887FQ9OMU35II8U1IAL7GNJUUPEC; dtSa=-; dtLatC=6; rxvt=1620870800539|1620868999414; dtPC=2$268999403_832h21vNBOGUBPAURHPUFCGPGTUOULKUSKKKTAR-0e3"/>
+    <header name="Host" value="54.158.203.46"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://54.158.203.46/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Thu, 13 May 2021 01:23:36 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+Last-Modified: Thu, 17 Nov 2016 22:51:17 GMT&#xd;
+ETag: "e26a-5418706fa2340"&#xd;
+Accept-Ranges: bytes&#xd;
+Content-Length: 57962&#xd;
+Server-Timing: dtRpid;desc="-1687173486"&#xd;
+Content-Type: image/svg+xml</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

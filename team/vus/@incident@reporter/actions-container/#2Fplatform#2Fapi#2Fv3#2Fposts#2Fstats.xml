@@ -1,0 +1,54 @@
+<http-page executeResourcesDynamically="false"
+    name="/platform/api/v3/posts/stats" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@incident@reporter/%resources%/recorded-artifacts/7507aac6-fc4b-4918-8dba-8917d2bc11a0.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="7507aac6-fc4b-4918-8dba-8917d2bc11a0">
+    <embedded-action>68c7ab75-cb85-4876-85a5-a048132d7055</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_26202f9f-8c64-4150-9a2d-497b56a945d9.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/platform/api/v3/posts/stats"
+    path="/platform/api/v3/posts/stats" postType="2"
+    recordedArtifactZipFileName="team/vus/@incident@reporter/%resources%/recorded-artifacts/7507aac6-fc4b-4918-8dba-8917d2bc11a0.zip"
+    recordedResponseCode="401" responseSize="2939"
+    serverUid="TestServer" slaProfileEnabled="false"
+    uid="68c7ab75-cb85-4876-85a5-a048132d7055" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_4626ecbf-8a80-4ae9-bf0f-390ce48de8a2.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_4626ecbf-8a80-4ae9-bf0f-390ce48de8a2.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="group_by"
+        recordRawValue="form" separator="=" value="form" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="order"
+        recordRawValue="desc" separator="=" value="desc" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="orderby"
+        recordRawValue="post_date" separator="=" value="post_date" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="status"
+        recordRawValue="all" separator="=" value="all" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Authorization" value="Bearer 7KOeQA6QCaBKyuhcIzxHS9AhzTjdcxXgx9U1ANlD"/>
+    <header name="Cookie" value="dtCookie=v_4_srv_2_sn_6D8241707C009D7FC69BBB8CD4E34381_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1; rxVisitor=16184504849114EVV887FQ9OMU35II8U1IAL7GNJUUPEC; dtSa=-; dtLatC=6; rxvt=1620870800576|1620868999414; dtPC=2$268999403_832h24vNBOGUBPAURHPUFCGPGTUOULKUSKKKTAR-0e3"/>
+    <header name="Host" value="54.158.203.46"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://54.158.203.46/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36"/>
+    <header name="x-dtpc" value="2$268999403_832h24vNBOGUBPAURHPUFCGPGTUOULKUSKKKTAR-0e3"/>
+    <responseHeaders>HTTP/1.1 401 Unauthorized&#xd;
+Date: Thu, 13 May 2021 01:23:37 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+X-Powered-By: PHP/7.0.31&#xd;
+Www-Authenticate: Bearer realm=""&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: Authorization, Content-type&#xd;
+X-OneAgent-JS-Injection: true&#xd;
+X-ruxit-JS-Agent: true&#xd;
+Server-Timing: dtRpid;desc="-900321017"&#xd;
+Content-Length: 2939&#xd;
+Content-Type: text/html; charset=utf-8</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

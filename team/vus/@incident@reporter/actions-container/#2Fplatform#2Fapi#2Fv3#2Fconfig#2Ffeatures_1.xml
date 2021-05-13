@@ -1,0 +1,47 @@
+<http-page executeResourcesDynamically="false"
+    name="/platform/api/v3/config/features_1"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@incident@reporter/%resources%/recorded-artifacts/17dcbc15-6e83-4e55-ad4f-115c48752c3c.zip"
+    slaProfileEnabled="false" thinkTime="9"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="17dcbc15-6e83-4e55-ad4f-115c48752c3c">
+    <embedded-action>3eae0bfc-c795-4469-afaf-239980492acf</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_6a784ca2-73a6-4d65-ac01-193df38ad53d.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/platform/api/v3/config/features"
+    path="/platform/api/v3/config/features" postType="2"
+    recordedArtifactZipFileName="team/vus/@incident@reporter/%resources%/recorded-artifacts/17dcbc15-6e83-4e55-ad4f-115c48752c3c.zip"
+    recordedResponseCode="401" responseSize="2939"
+    serverUid="TestServer" slaProfileEnabled="false"
+    uid="3eae0bfc-c795-4469-afaf-239980492acf" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_a2a5cbd8-cb8e-40f4-8560-b6d6d2892375.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_a2a5cbd8-cb8e-40f4-8560-b6d6d2892375.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Authorization" value="Bearer 7KOeQA6QCaBKyuhcIzxHS9AhzTjdcxXgx9U1ANlD"/>
+    <header name="Cookie" value="dtCookie=v_4_srv_2_sn_6D8241707C009D7FC69BBB8CD4E34381_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1; rxVisitor=16184504849114EVV887FQ9OMU35II8U1IAL7GNJUUPEC; dtSa=-; dtLatC=6; rxvt=1620870800459|1620868999414; dtPC=2$268999403_832h16vNBOGUBPAURHPUFCGPGTUOULKUSKKKTAR-0e3"/>
+    <header name="Host" value="54.158.203.46"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://54.158.203.46/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36"/>
+    <header name="x-dtpc" value="2$268999403_832h10vNBOGUBPAURHPUFCGPGTUOULKUSKKKTAR-0e3"/>
+    <responseHeaders>HTTP/1.1 401 Unauthorized&#xd;
+Date: Thu, 13 May 2021 01:23:36 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+X-Powered-By: PHP/7.0.31&#xd;
+Www-Authenticate: Bearer realm=""&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: Authorization, Content-type&#xd;
+X-OneAgent-JS-Injection: true&#xd;
+X-ruxit-JS-Agent: true&#xd;
+Server-Timing: dtRpid;desc="1240401193"&#xd;
+Content-Length: 2939&#xd;
+Content-Type: text/html; charset=utf-8</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

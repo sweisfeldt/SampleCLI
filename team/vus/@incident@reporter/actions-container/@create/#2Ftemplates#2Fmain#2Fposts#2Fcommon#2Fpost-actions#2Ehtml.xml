@@ -1,0 +1,132 @@
+<http-page executeResourcesDynamically="false"
+    name="/templates/main/posts/common/post-actions.html"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@incident@reporter/%resources%/recorded-artifacts/f881205c-238d-4c6e-b9d1-7cc5d599e56c.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="f881205c-238d-4c6e-b9d1-7cc5d599e56c">
+    <embedded-action>0c4bfde0-b4ed-4583-9cce-7808530d2504</embedded-action>
+    <embedded-action>49113bb2-ee1a-4673-8564-6c6312dbf86c</embedded-action>
+    <embedded-action>ac4573db-0fdc-4762-a20f-c442d401f20f</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_564edd0c-0e28-4118-ab34-3a87f1bdd2e2.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    eTag="&quot;bce-5418708f1ad80-gzip:dtagent10215210506134511klsK&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 17 Nov 2016 22:51:49 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/templates/main/posts/common/post-actions.html"
+    path="/templates/main/posts/common/post-actions.html" postType="2"
+    recordedArtifactZipFileName="team/vus/@incident@reporter/%resources%/recorded-artifacts/f881205c-238d-4c6e-b9d1-7cc5d599e56c.zip"
+    recordedResponseCode="200" responseSize="3022"
+    serverUid="TestServer" slaProfileEnabled="false"
+    uid="0c4bfde0-b4ed-4583-9cce-7808530d2504" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_9777d855-4057-4ff4-8034-c31aea40c140.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_9777d855-4057-4ff4-8034-c31aea40c140.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Cookie" value="dtCookie=v_4_srv_2_sn_6D8241707C009D7FC69BBB8CD4E34381_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1; rxVisitor=16184504849114EVV887FQ9OMU35II8U1IAL7GNJUUPEC; dtSa=-; dtLatC=6; rxvt=1620870848048|1620868999414; dtPC=2$268999403_832h85vNBOGUBPAURHPUFCGPGTUOULKUSKKKTAR-0e6"/>
+    <header name="Host" value="54.158.203.46"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://54.158.203.46/posts/1774"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36"/>
+    <header name="x-dtpc" value="2$268999403_832h82vNBOGUBPAURHPUFCGPGTUOULKUSKKKTAR-0e6"/>
+    <header name="x-dtreferer" value="http://54.158.203.46/posts/create/2"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Thu, 13 May 2021 01:24:24 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+Last-Modified: Thu, 17 Nov 2016 22:51:49 GMT&#xd;
+ETag: "bce-5418708f1ad80-gzip:dtagent10215210506134511klsK"&#xd;
+Accept-Ranges: bytes&#xd;
+X-OneAgent-JS-Injection: true&#xd;
+X-ruxit-JS-Agent: true&#xd;
+Vary: Accept-Encoding&#xd;
+Server-Timing: dtRpid;desc="-140233870"&#xd;
+Content-Type: text/html&#xd;
+X-Content-Encoding-Over-Network: gzip&#xd;
+Transfer-Encoding: chunked</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/platform/api/v3/forms/2/stages"
+    path="/platform/api/v3/forms/2/stages" postType="2"
+    recordedArtifactZipFileName="team/vus/@incident@reporter/%resources%/recorded-artifacts/f881205c-238d-4c6e-b9d1-7cc5d599e56c.zip"
+    recordedResponseCode="200" responseSize="833" serverUid="TestServer"
+    slaProfileEnabled="false" uid="49113bb2-ee1a-4673-8564-6c6312dbf86c" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_4f174e7c-9edf-4088-9248-611b4c5f2cb5</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_4f174e7c-9edf-4088-9248-611b4c5f2cb5.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="order"
+        recordRawValue="asc" separator="=" value="asc" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="orderby"
+        recordRawValue="priority" separator="=" value="priority" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Authorization" value="Bearer ytnIBw4T8fIpjD310nGVgyW0lxPgiWHPLFL3AAHU"/>
+    <header name="Cookie" value="dtCookie=v_4_srv_2_sn_6D8241707C009D7FC69BBB8CD4E34381_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1; rxVisitor=16184504849114EVV887FQ9OMU35II8U1IAL7GNJUUPEC; dtSa=-; dtLatC=6; rxvt=1620870848048|1620868999414; dtPC=2$268999403_832h85vNBOGUBPAURHPUFCGPGTUOULKUSKKKTAR-0e6"/>
+    <header name="Host" value="54.158.203.46"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://54.158.203.46/posts/1774"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36"/>
+    <header name="x-dtpc" value="2$268999403_832h83vNBOGUBPAURHPUFCGPGTUOULKUSKKKTAR-0e6"/>
+    <header name="x-dtreferer" value="http://54.158.203.46/posts/create/2"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Thu, 13 May 2021 01:24:24 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+X-Powered-By: PHP/7.0.31&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: Authorization, Content-type&#xd;
+Allow: POST, GET, PUT, DELETE, OPTIONS&#xd;
+Access-Control-Allow-Methods: POST, GET, PUT, DELETE, OPTIONS&#xd;
+Server-Timing: dtRpid;desc="-1556152153"&#xd;
+Content-Length: 833&#xd;
+Content-Type: application/json</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/platform/api/v3/posts/1774/geojson"
+    path="/platform/api/v3/posts/1774/geojson" postType="2"
+    recordedArtifactZipFileName="team/vus/@incident@reporter/%resources%/recorded-artifacts/f881205c-238d-4c6e-b9d1-7cc5d599e56c.zip"
+    recordedResponseCode="200" responseSize="55" serverUid="TestServer"
+    slaProfileEnabled="false" uid="ac4573db-0fdc-4762-a20f-c442d401f20f" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_6ff62c38-dff2-4281-863e-bf6f7ed3df36</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_6ff62c38-dff2-4281-863e-bf6f7ed3df36.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="order"
+        recordRawValue="desc" separator="=" value="desc" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="orderby"
+        recordRawValue="post_date" separator="=" value="post_date" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Authorization" value="Bearer ytnIBw4T8fIpjD310nGVgyW0lxPgiWHPLFL3AAHU"/>
+    <header name="Cookie" value="dtCookie=v_4_srv_2_sn_6D8241707C009D7FC69BBB8CD4E34381_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1; rxVisitor=16184504849114EVV887FQ9OMU35II8U1IAL7GNJUUPEC; dtSa=-; dtLatC=6; rxvt=1620870848048|1620868999414; dtPC=2$268999403_832h85vNBOGUBPAURHPUFCGPGTUOULKUSKKKTAR-0e6"/>
+    <header name="Host" value="54.158.203.46"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://54.158.203.46/posts/1774"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36"/>
+    <header name="x-dtpc" value="2$268999403_832h85vNBOGUBPAURHPUFCGPGTUOULKUSKKKTAR-0e6"/>
+    <header name="x-dtreferer" value="http://54.158.203.46/posts/create/2"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Thu, 13 May 2021 01:24:24 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+X-Powered-By: PHP/7.0.31&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: Authorization, Content-type&#xd;
+Allow: GET, OPTIONS&#xd;
+Access-Control-Allow-Methods: GET, OPTIONS&#xd;
+Server-Timing: dtRpid;desc="927459129"&#xd;
+Content-Length: 55&#xd;
+Content-Type: application/json</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

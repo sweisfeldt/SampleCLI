@@ -1,0 +1,44 @@
+<http-page executeResourcesDynamically="false" name="/rb_bf42640bbz_1"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@incident@reporter/%resources%/recorded-artifacts/fb57cd0b-40d1-4e60-9da8-9278e196c62d.zip"
+    slaProfileEnabled="false" thinkTime="2052"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="fb57cd0b-40d1-4e60-9da8-9278e196c62d">
+    <embedded-action>e0c3bc7b-bf27-4989-8075-002f4c140642</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_6ab48e2a-b18c-43f4-b807-177dc7ceff6a.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/plain; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/rb_bf42640bbz" path="/rb_bf42640bbz"
+    postType="4"
+    recordedArtifactZipFileName="team/vus/@incident@reporter/%resources%/recorded-artifacts/fb57cd0b-40d1-4e60-9da8-9278e196c62d.zip"
+    recordedResponseCode="200" responseSize="533" serverUid="TestServer"
+    slaProfileEnabled="false" uid="e0c3bc7b-bf27-4989-8075-002f4c140642" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_63e80b80-faa3-47a0-8b13-52c21e82b138</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_63e80b80-faa3-47a0-8b13-52c21e82b138.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="false" name="app"
+        recordRawValue="ea7c4b59f27d43eb;crc=953554092;end=1"
+        separator="=" value="ea7c4b59f27d43eb;crc=953554092;end=1" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Content-Type" value="text/plain;charset=UTF-8"/>
+    <header name="Cookie" value="dtCookie=v_4_srv_2_sn_6D8241707C009D7FC69BBB8CD4E34381_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1; rxVisitor=16184504849114EVV887FQ9OMU35II8U1IAL7GNJUUPEC; dtSa=-; dtLatC=1; rxvt=1620870848288|1620868999414; dtPC=2$268999403_832h-vNBOGUBPAURHPUFCGPGTUOULKUSKKKTAR-0e6"/>
+    <header name="Host" value="54.158.203.46"/>
+    <header name="Origin" value="http://54.158.203.46"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://54.158.203.46/posts/1774"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Thu, 13 May 2021 01:24:26 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+Vary: Accept-Encoding&#xd;
+Content-Type: text/plain; charset=utf-8&#xd;
+X-Content-Encoding-Over-Network: gzip&#xd;
+Transfer-Encoding: chunked</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[$svrid=2$tvn=%2Fposts%2F1774$tvt=1620869047928$ni=4g|10$3p=78-1620868998974%3B54.158.203.46%7Cg%7C3%7C0%7C0%7C0%7C48819_48946_48962_49044_49086_49215%7C113%7C83%7C129$3p1=80-1620868998974%3B54.158.203.46%7Ci%7C1%7C0%7C0%7C0%7C0%7C1%7C%7C0%7C0%7C0%7C49013_49016%7C3%7C3%7C3%7C1%7C0%7C0%7C0%7C48963_49029%7C66%7C66%7C66$3p2=81-1620868998974%3B54.158.203.46%7Cg%7C1%7C0%7C0%7C0%7C49081_49107%7C26%7C26%7C26$3p3=82-1620868998974%3B54.158.203.46%7Cg%7C1%7C0%7C0%7C0%7C49083_49114%7C31%7C31%7C31$3p4=83-1620868998974%3B54.158.203.46%7Cg%7C1%7C0%7C0%7C0%7C49085_49215%7C130%7C130%7C130$3p5=85-1620868998974%3Bwww.gravatar.com%7Cg%7C1%7C0%7C0%7C0%7C49185_49250%7C65%7C65%7C65$3p6=86-1620868998974%3B54.158.203.46%7Cg%7C1%7C0%7C0%7C0%7C49223_49254%7C31%7C31%7C31$3p7=87-1620868998974%3B54.158.203.46%7Cg%7C1%7C0%7C0%7C0%7C49317_49349%7C32%7C32%7C32$rt=78-1620868998974%3Bhttp%3A%2F%2F54.158.203.46%2Fplatform%2Fapi%2Fv3%2Fposts%3Forder%3Ddesc%26orderby%3Dpost_5Fdate%7Cb48819e0f0g0h1i2k2l126m126u1467v979w979T-76z1I1M392598063%7Chttp%3A%2F%2F54.158.203.46%2Fplatform%2Fapi%2Fv3%2Fposts%2F1774%3Forder%3Ddesc%26orderby%3Dpost_5Fdate%7Cb48962e0f0g0h0i0k10l82m83u1380v979w979T-68z1I1M687534705%7Chttp%3A%2F%2F54.158.203.46%2Fplatform%2Fapi%2Fv3%2Fposts%2F1774%2Fgeojson%3Forder%3Ddesc%26orderby%3Dpost_5Fdate%7Cb49086e0f0g0h2i2k2l118m129u417v55w55T-73z1I1M927459129$rt1=80-1620868998974%3Bhttp%3A%2F%2F54.158.203.46%2Ftemplates%2Fmain%2Fposts%2Fdetail%2Fdetail.html%7Cb48963e0f0g0h12i13k13l61m66u6490v6048w6048T-69z1I1M-829181705%7Chttp%3A%2F%2F54.158.203.46%2Ffavicon.ico%7Cb49013e0f0g0h0i0k1l2m3v7250w7250I22M-57905689$rt2=81-1620868998974%3Bhttp%3A%2F%2F54.158.203.46%2Ftemplates%2Fmain%2Fposts%2Fcommon%2Fpost-metadata.html%7Cb49081e0f0g0h0i0k1l24m26u1164v723w723T-70z1I1M-1008893727$rt3=82-1620868998974%3Bhttp%3A%2F%2F54.158.203.46%2Ftemplates%2Fmain%2Fposts%2Fcommon%2Fpost-actions.html%7Cb49083e0f0g0h0i0k1l26m31u3462v3022w3022T-71z1I1M-140233870$rt4=83-1620868998974%3Bhttp%3A%2F%2F54.158.203.46%2Fplatform%2Fapi%2Fv3%2Fforms%2F2%2Fstages%3Forder%3Dasc%26orderby%3Dpriority%7Cb49085e0f0g0h1i2k2l117m130u1236v833w833T-72z1I1M-1556152153$rt5=85-1620868998974%3Bhttp%3A%2F%2Fwww.gravatar.com%2Favatar%2F00000000000000000000000000000000%3Fd%3Dretro%26s%3D40%7Cb49185e0m65N3O40P40I7$rt6=86-1620868998974%3Bhttp%3A%2F%2F54.158.203.46%2Ftemplates%2Fmain%2Fposts%2Fcommon%2Fcollection-toggle%2Fcollection-toggle-link.html%7Cb49223e0f0g0h0i0k3l29m31u747v306w306T-74z1I1M-2034438365$rt7=87-1620868998974%3Bhttp%3A%2F%2F54.158.203.46%2Ftemplates%2Fmain%2Fposts%2Fdetail%2Fpost-value.html%7Cb49317e0f0g0h0i0k2l30m32u1076v637w637T-75z1I1M661217891$url=http%3A%2F%2F54.158.203.46%2Fposts%2F1774$title=foo%20-%20Neotys%20demonstration%20application$latC=1$app=ea7c4b59f27d43eb$visitID=NBOGUBPAURHPUFCGPGTUOULKUSKKKTAR-0$vs=2$fId=268999403_832$v=10215210506134512$vID=16184504849114EVV887FQ9OMU35II8U1IAL7GNJUUPEC$time=1620869050610]]></textPostContent>
+</http-action>

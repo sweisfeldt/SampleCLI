@@ -1,0 +1,86 @@
+<http-page executeResourcesDynamically="false"
+    name="/templates/common/directives/file-upload.html"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@incident@reporter/%resources%/recorded-artifacts/f8822def-5b2a-4f0a-9c86-14477e6aea6f.zip"
+    slaProfileEnabled="false" thinkTime="136"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="f8822def-5b2a-4f0a-9c86-14477e6aea6f">
+    <embedded-action>4f9d6932-510b-460a-ba3f-dc5bb70a864b</embedded-action>
+    <embedded-action>cfe610e7-6055-44d6-bc0d-bc399742ccb2</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_f02c2813-afdb-4df3-a2c4-65d9c377fd0d.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    eTag="&quot;5d-541870727ea00-gzip:dtagent10215210506134511klsK&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 17 Nov 2016 22:51:19 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/templates/common/directives/file-upload.html"
+    path="/templates/common/directives/file-upload.html" postType="2"
+    recordedArtifactZipFileName="team/vus/@incident@reporter/%resources%/recorded-artifacts/f8822def-5b2a-4f0a-9c86-14477e6aea6f.zip"
+    recordedResponseCode="200" responseSize="93" serverUid="TestServer"
+    slaProfileEnabled="false" uid="4f9d6932-510b-460a-ba3f-dc5bb70a864b" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_15333623-70ac-4c5b-97b7-dd4a1488d0a6.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_15333623-70ac-4c5b-97b7-dd4a1488d0a6.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Cookie" value="dtCookie=v_4_srv_2_sn_6D8241707C009D7FC69BBB8CD4E34381_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1; rxVisitor=16184504849114EVV887FQ9OMU35II8U1IAL7GNJUUPEC; dtSa=-; dtLatC=1; rxvt=1620870831171|1620868999414; dtPC=2$268999403_832h76vNBOGUBPAURHPUFCGPGTUOULKUSKKKTAR-0e5"/>
+    <header name="Host" value="54.158.203.46"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://54.158.203.46/posts/create/2"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36"/>
+    <header name="x-dtpc" value="2$268999403_832h76vNBOGUBPAURHPUFCGPGTUOULKUSKKKTAR-0e5"/>
+    <header name="x-dtreferer" value="http://54.158.203.46/views/map"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Thu, 13 May 2021 01:24:07 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+Last-Modified: Thu, 17 Nov 2016 22:51:19 GMT&#xd;
+ETag: "5d-541870727ea00-gzip:dtagent10215210506134511klsK"&#xd;
+Accept-Ranges: bytes&#xd;
+X-OneAgent-JS-Injection: true&#xd;
+X-ruxit-JS-Agent: true&#xd;
+Vary: Accept-Encoding&#xd;
+Server-Timing: dtRpid;desc="-388063328"&#xd;
+Content-Type: text/html&#xd;
+X-Content-Encoding-Over-Network: gzip&#xd;
+Transfer-Encoding: chunked</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/plain; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/rb_bf42640bbz" path="/rb_bf42640bbz"
+    postType="4"
+    recordedArtifactZipFileName="team/vus/@incident@reporter/%resources%/recorded-artifacts/f8822def-5b2a-4f0a-9c86-14477e6aea6f.zip"
+    recordedResponseCode="200" responseSize="533" serverUid="TestServer"
+    slaProfileEnabled="false" uid="cfe610e7-6055-44d6-bc0d-bc399742ccb2" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_bd70fa4f-878f-4480-af83-025648148448</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_bd70fa4f-878f-4480-af83-025648148448.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="false" name="app"
+        recordRawValue="ea7c4b59f27d43eb;crc=98860910;end=1"
+        separator="=" value="ea7c4b59f27d43eb;crc=98860910;end=1" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Content-Type" value="text/plain;charset=UTF-8"/>
+    <header name="Cookie" value="dtCookie=v_4_srv_2_sn_6D8241707C009D7FC69BBB8CD4E34381_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1; rxVisitor=16184504849114EVV887FQ9OMU35II8U1IAL7GNJUUPEC; dtSa=-; rxvt=1620870831171|1620868999414; dtLatC=16; dtPC=2$268999403_832h-vNBOGUBPAURHPUFCGPGTUOULKUSKKKTAR-0e5"/>
+    <header name="Host" value="54.158.203.46"/>
+    <header name="Origin" value="http://54.158.203.46"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://54.158.203.46/posts/create/2"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36"/>
+    <header name="x-dtreferer" value="http://54.158.203.46/views/map"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Thu, 13 May 2021 01:24:07 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+Vary: Accept-Encoding&#xd;
+Content-Type: text/plain; charset=utf-8&#xd;
+X-Content-Encoding-Over-Network: gzip&#xd;
+Transfer-Encoding: chunked</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[$a=1%7C61%7CWeather%20alert%20v1.0%7CC%7Cg1.5.8%7C1620869030578%7C1620869031267%7Cdn%7C855%7Cxu%7C%2Ftemplates%2Fmain%2Fposts%2Fmodify%2Fmain.html%7Csvn%7C%2Fviews%2Fmap%7Csvt%7C1620868998974%7Cxrt%7Cb1620869030590e0f0g0h2i3k3l48m49u417v68w68T-67z11I1M7315826%7Cxcs%7C63%7Cxce%7C63%2C2%7C77%7C_event_%7C1620869030578%7C_vc_%7CV%7C542%5Epc%7CVCD%7C130%7CVCDS%7C3%7CVCS%7C748%7CVCO%7C748%7CVCI%7C0%7CVE%7C1074%5Ep707%5Ep854%5Eps%5Esbutton.btn.btn-info%3Espan%3Anth-child%282%29%7CS%7C345%2C2%7C62%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1620869030651%7C1620869030735%7Cdn%7C422%7Cxu%7C%2Fplatform%2Fapi%2Fv3%2Fposts%7Cxrt%7Cb1620869030659e0f0g0h0i0k1l75m75u493v70w70T-54z11I1%7Cxcs%7C84%7Cxce%7C84%2C2%7C63%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1620869030654%7C1620869030760%7Cdn%7C423%7Cxu%7C%2Fplatform%2Fapi%2Fv3%2Fforms%2F2%7Cxrt%7Cb1620869030660e0f0g0h3i3k3l97m98u900v498w498T-55z11I1M1734890787%7Cxcs%7C105%7Cxce%7C106%2C2%7C64%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1620869030760%7C1620869030794%7Cdn%7C543%7Cxu%7C%2Ftemplates%2Fmain%2Fposts%2Fmodify%2Fpost-editor.html%7Cxrt%7Cb1620869030764e0f0g0h0i0k1l26m29u7775v7333w7333T-56z11I1M-177699113%7Cxcs%7C34%7Cxce%7C34%2C2%7C65%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1620869030803%7C1620869030903%7Cdn%7C549%7Cxu%7C%2Ftemplates%2Fmain%2Fposts%2Fmodify%2Fpost-toolbox.html%7Cxrt%7Cb1620869030863e0f0g0h0i0k1l24m26u5324v4882w4882T-57z11I1M2069898359%7Cxcs%7C99%7Cxce%7C100%2C2%7C66%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1620869030806%7C1620869030910%7Cdn%7C549%7Cxu%7C%2Ftemplates%2Fmain%2Fposts%2Fmodify%2Fpost-tabs.html%7Cxrt%7Cb1620869030864e0f0g0h0i0k2l27m33u2453v2012w2012T-58z11I1M-2126775377%7Cxcs%7C103%7Cxce%7C104%2C2%7C67%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1620869030811%7C1620869030974%7Cdn%7C549%7Cxu%7C%2Fplatform%2Fapi%2Fv3%2Ftags%7Cxrt%7Cb1620869030867e0f0g0h2i2k2l103m105u772v370w370T-59z11I1M1737615981%7Cxcs%7C162%7Cxce%7C163%2C2%7C68%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1620869030814%7C1620869030871%7Cdn%7C549%7Cxu%7C%2Fplatform%2Fapi%2Fv3%2Fforms%2F2%2Fstages%7Cxcs%7C57%7Cxce%7C57%2C2%7C69%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1620869030817%7C1620869030993%7Cdn%7C552%7Cxu%7C%2Fplatform%2Fapi%2Fv3%2Fforms%2F2%2Fattributes%7Cxrt%7Cb1620869030869e0f0g0h1i2k2l121m121u4115v3713w3713T-60z11I1M361445242%7Cxcs%7C175%7Cxce%7C176%2C2%7C70%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1620869030994%7C1620869031026%7Cdn%7C581%7Cxu%7C%2Ftemplates%2Fmain%2Fposts%2Fmodify%2Fpost-value-edit.html%7Cxrt%7Cb1620869030997e0f0g0h0i0k1l25m27u8449v8008w8008T-61z11I1M708266917%7Cxcs%7C31%7Cxce%7C32%2C2%7C71%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1620869031033%7C1620869031091%7Cdn%7C855%7Cxu%7C%2Ftemplates%2Fmain%2Fposts%2Fmodify%2Frelation.html%7Cxrt%7Cb1620869031058e0f0g0h0i0k2l30m31u1110v670w670T-62z11I1M1561672017%7Cxcs%7C57%7Cxce%7C58%2C2%7C72%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1620869031037%7C1620869031099%7Cdn%7C855%7Cxu%7C%2Ftemplates%2Fmain%2Fposts%2Fmodify%2Flocation.html%7Cxrt%7Cb1620869031059e0f0g0h0i0k1l29m32u1353v913w913T-63z11I1M1073137395%7Cxcs%7C62%7Cxce%7C62%2C2%7C73%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1620869031042%7C1620869031169%7Cdn%7C855%7Cxu%7C%2Ftemplates%2Fmain%2Fposts%2Fmodify%2Fmedia.html%7Cxrt%7Cb1620869031061e0f0g0h0i0k1l32m34u2230v1791w1791T-64z11I1M-65609723%7Cxcs%7C127%7Cxce%7C127%2C2%7C74%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1620869031054%7C1620869031131%7Cdn%7C855%7Cxu%7C%2Ftemplates%2Fmain%2Fposts%2Fmodify%2Fpost-datetime-value.html%7Cxrt%7Cb1620869031063e0f0g0h0i0k1l30m31u1155v716w716T-65z11I1M942105082%7Cxcs%7C76%7Cxce%7C77%2C2%7C76%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1620869031170%7C1620869031267%7Cdn%7C855%7Cxu%7C%2Ftemplates%2Fcommon%2Fdirectives%2Ffile-upload.html%7Cxrt%7Cb1620869031193e0f0g0h0i0k32l63m70u531v93w93T-66z11I1M-388063328%7Cxcs%7C96%7Cxce%7C97%2C1%7C75%7C_event_%7C1620869030583%7C_view_%7Csvn%7C%2Fviews%2Fmap%7Csvt%7C1620868998974$svrid=2$rId=RID_432760405$rpId=-1012062015$domR=1620869000295$tvn=%2Fposts%2Fcreate%2F2$tvt=1620869030583$ni=4g|10$url=http%3A%2F%2F54.158.203.46%2Fposts%2Fcreate%2F2$title=Create%20Post%20-%20Neotys%20demonstration%20application$sUrl=http%3A%2F%2F54.158.203.46%2Fviews%2Fmap$sTitle=Posts%20-%20Neotys%20demonstration%20application$latC=16$app=ea7c4b59f27d43eb$visitID=NBOGUBPAURHPUFCGPGTUOULKUSKKKTAR-0$vs=2$fId=268999403_832$v=10215210506134512$vID=16184504849114EVV887FQ9OMU35II8U1IAL7GNJUUPEC$time=1620869031468]]></textPostContent>
+</http-action>

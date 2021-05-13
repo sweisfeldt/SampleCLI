@@ -1,0 +1,13 @@
+# Project description file
+
+project.name=Nike
+project.version=8.2
+project.original.version=8.2
+product.name=NeoLoad
+product.original.name=NeoLoad
+product.original.version=7.7.0
+project.id=29c28fa0-64a8-455e-b573-2eec19d3a84a
+project.config.path=config.zip
+project.config.storage=ZIP
+team.server.enabled=true
+team.server.project=/sweisfeldt/SampleCLI.git

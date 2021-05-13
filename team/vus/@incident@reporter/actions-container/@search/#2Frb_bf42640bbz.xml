@@ -1,0 +1,44 @@
+<http-page executeResourcesDynamically="false" name="/rb_bf42640bbz"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@incident@reporter/%resources%/recorded-artifacts/c0bde965-989b-4f8e-8738-93df85c2a44a.zip"
+    slaProfileEnabled="false" thinkTime="1983"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="c0bde965-989b-4f8e-8738-93df85c2a44a">
+    <embedded-action>01255dc5-a9c5-4e74-bf93-12c4150e39a8</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_ba0190a7-2835-4d6a-b7ee-071131bb8a78.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/plain; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/rb_bf42640bbz" path="/rb_bf42640bbz"
+    postType="4"
+    recordedArtifactZipFileName="team/vus/@incident@reporter/%resources%/recorded-artifacts/c0bde965-989b-4f8e-8738-93df85c2a44a.zip"
+    recordedResponseCode="200" responseSize="533" serverUid="TestServer"
+    slaProfileEnabled="false" uid="01255dc5-a9c5-4e74-bf93-12c4150e39a8" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_516d26a6-5781-4c3c-8561-bf5a33b6f4ae</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_516d26a6-5781-4c3c-8561-bf5a33b6f4ae.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="false" name="app"
+        recordRawValue="ea7c4b59f27d43eb;crc=2124350946;end=1"
+        separator="=" value="ea7c4b59f27d43eb;crc=2124350946;end=1" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Content-Type" value="text/plain;charset=UTF-8"/>
+    <header name="Cookie" value="dtCookie=v_4_srv_2_sn_6D8241707C009D7FC69BBB8CD4E34381_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1; rxVisitor=16184504849114EVV887FQ9OMU35II8U1IAL7GNJUUPEC; dtSa=-; dtLatC=1; rxvt=1620870820642|1620868999414; dtPC=2$268999403_832h-vNBOGUBPAURHPUFCGPGTUOULKUSKKKTAR-0e4"/>
+    <header name="Host" value="54.158.203.46"/>
+    <header name="Origin" value="http://54.158.203.46"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://54.158.203.46/views/map"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Thu, 13 May 2021 01:23:59 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+Vary: Accept-Encoding&#xd;
+Content-Type: text/plain; charset=utf-8&#xd;
+X-Content-Encoding-Over-Network: gzip&#xd;
+Transfer-Encoding: chunked</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[$svrid=2$tvn=%2Fviews%2Fmap$tvt=1620868998974$ni=4g|10$3p=59-1620868998974%3B54.158.203.46%7Cg%7C3%7C0%7C0%7C0%7C21673_21887%7C75%7C2%7C146$rt=59-1620868998974%3Bhttp%3A%2F%2F54.158.203.46%2Fplatform%2Fapi%2Fv3%2Fposts%2Fgeojson%3Fform_255B_255D%3D2%26form_255B_255D%3D4%26order%3Ddesc%26orderby%3Dpost_5Fdate%26q%3Dboston%2Bma%26status_255B_255D%3Dpublished%26status_255B_255D%3Ddraft%7Cb21673e0f0g0h0i0k1l76m78u418v55w55T-53z1I1M-997695668%7Chttp%3A%2F%2F54.158.203.46%2Ffonts%2FLato%2Ffonts%2FLatoLatin-Italic.woff2%7Cb21679e0f0g0h0i0k1l1m2I9M-214278389%7Chttp%3A%2F%2F54.158.203.46%2Ffonts%2FLato%2Ffonts%2FLatoLatin-Italic.woff%7Cb21741e0f0g0h3i4k4l145m146u75047v74708w74708I9M1783199515$url=http%3A%2F%2F54.158.203.46%2Fviews%2Fmap$title=Posts%20-%20Neotys%20demonstration%20application$latC=1$app=ea7c4b59f27d43eb$visitID=NBOGUBPAURHPUFCGPGTUOULKUSKKKTAR-0$vs=2$fId=268999403_832$v=10215210506134512$vID=16184504849114EVV887FQ9OMU35II8U1IAL7GNJUUPEC$time=1620869023125]]></textPostContent>
+</http-action>

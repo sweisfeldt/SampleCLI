@@ -1,0 +1,86 @@
+<http-page executeResourcesDynamically="false"
+    name="/templates/main/posts/detail/post-value.html"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@incident@reporter/%resources%/recorded-artifacts/870f2bf6-8c72-4831-9b28-5327083cb539.zip"
+    slaProfileEnabled="false" thinkTime="68"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="870f2bf6-8c72-4831-9b28-5327083cb539">
+    <embedded-action>0d6085f6-c017-47f3-b517-f00a3c7f7545</embedded-action>
+    <embedded-action>b659a943-c8ba-428e-a793-1c45384b2134</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_607ba313-59c3-4bbc-99ad-6bfb0158dc6f.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    eTag="&quot;27d-5418708f1ad80-gzip:dtagent10215210506134511klsK&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Thu, 17 Nov 2016 22:51:49 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/templates/main/posts/detail/post-value.html"
+    path="/templates/main/posts/detail/post-value.html" postType="2"
+    recordedArtifactZipFileName="team/vus/@incident@reporter/%resources%/recorded-artifacts/870f2bf6-8c72-4831-9b28-5327083cb539.zip"
+    recordedResponseCode="200" responseSize="637" serverUid="TestServer"
+    slaProfileEnabled="false" uid="0d6085f6-c017-47f3-b517-f00a3c7f7545" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_561a3991-5cd0-4044-a48e-d901f21cd2b8.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_561a3991-5cd0-4044-a48e-d901f21cd2b8.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Cookie" value="dtCookie=v_4_srv_2_sn_6D8241707C009D7FC69BBB8CD4E34381_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1; rxVisitor=16184504849114EVV887FQ9OMU35II8U1IAL7GNJUUPEC; dtSa=-; dtLatC=1; rxvt=1620870848288|1620868999414; dtPC=2$268999403_832h87vNBOGUBPAURHPUFCGPGTUOULKUSKKKTAR-0e6"/>
+    <header name="Host" value="54.158.203.46"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://54.158.203.46/posts/1774"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36"/>
+    <header name="x-dtpc" value="2$268999403_832h87vNBOGUBPAURHPUFCGPGTUOULKUSKKKTAR-0e6"/>
+    <header name="x-dtreferer" value="http://54.158.203.46/posts/create/2"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Thu, 13 May 2021 01:24:24 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+Last-Modified: Thu, 17 Nov 2016 22:51:49 GMT&#xd;
+ETag: "27d-5418708f1ad80-gzip:dtagent10215210506134511klsK"&#xd;
+Accept-Ranges: bytes&#xd;
+X-OneAgent-JS-Injection: true&#xd;
+X-ruxit-JS-Agent: true&#xd;
+Vary: Accept-Encoding&#xd;
+Server-Timing: dtRpid;desc="661217891"&#xd;
+Content-Type: text/html&#xd;
+X-Content-Encoding-Over-Network: gzip&#xd;
+Transfer-Encoding: chunked</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/plain; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/rb_bf42640bbz" path="/rb_bf42640bbz"
+    postType="4"
+    recordedArtifactZipFileName="team/vus/@incident@reporter/%resources%/recorded-artifacts/870f2bf6-8c72-4831-9b28-5327083cb539.zip"
+    recordedResponseCode="200" responseSize="533" serverUid="TestServer"
+    slaProfileEnabled="false" uid="b659a943-c8ba-428e-a793-1c45384b2134" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_15314523-92d8-43c1-9344-8e41f835bb39</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_15314523-92d8-43c1-9344-8e41f835bb39.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="false" name="app"
+        recordRawValue="ea7c4b59f27d43eb;crc=2462637538;end=1"
+        separator="=" value="ea7c4b59f27d43eb;crc=2462637538;end=1" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Content-Type" value="text/plain;charset=UTF-8"/>
+    <header name="Cookie" value="dtCookie=v_4_srv_2_sn_6D8241707C009D7FC69BBB8CD4E34381_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_1; rxVisitor=16184504849114EVV887FQ9OMU35II8U1IAL7GNJUUPEC; dtSa=-; dtLatC=1; rxvt=1620870848288|1620868999414; dtPC=2$268999403_832h-vNBOGUBPAURHPUFCGPGTUOULKUSKKKTAR-0e6"/>
+    <header name="Host" value="54.158.203.46"/>
+    <header name="Origin" value="http://54.158.203.46"/>
+    <header name="Proxy-Connection" value="keep-alive"/>
+    <header name="Referer" value="http://54.158.203.46/posts/1774"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36"/>
+    <header name="x-dtreferer" value="http://54.158.203.46/posts/create/2"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Thu, 13 May 2021 01:24:24 GMT&#xd;
+Server: Apache/2.4.25 (Debian)&#xd;
+Vary: Accept-Encoding&#xd;
+Content-Type: text/plain; charset=utf-8&#xd;
+X-Content-Encoding-Over-Network: gzip&#xd;
+Transfer-Encoding: chunked</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[$a=1%7C78%7CSUBMIT%7CC%7Cg1.5.8%7C1620869047776%7C1620869048333%7Cdn%7C1038%7Cxu%7C%2Fplatform%2Fapi%2Fv3%2Fposts%7Csvn%7C%2Fposts%2Fcreate%2F2%7Csvt%7C1620869030583%7Cxrt%7Cb1620869047793e0f0g0h1i2k2l126m126u1467v979w979T-76z11I1M392598063%7Cxcs%7C144%7Cxce%7C145%2C2%7C89%7C_event_%7C1620869047776%7C_vc_%7CV%7C557%5Epc%7CVCD%7C130%7CVCDS%7C2%7CVCS%7C611%7CVCO%7C611%7CVCI%7C0%7CVE%7C639%5Ep399%5Ep13300%5Eps%5Esdiv.postcard-field%3Anth-of-type%286%29%3Ediv%3Afirst-child%3Ediv%3Anth-child%282%29%3Ep%3Afirst-child%7CS%7C336%2C2%7C79%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1620869047929%7C1620869048020%7Cdn%7C980%7Cxu%7C%2Fplatform%2Fapi%2Fv3%2Fposts%2F1774%7Cxrt%7Cb1620869047936e0f0g0h0i0k10l82m83u1380v979w979T-68z11I1M687534705%7Cxcs%7C91%7Cxce%7C91%2C2%7C80%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1620869047930%7C1620869048015%7Cdn%7C973%7Cxu%7C%2Ftemplates%2Fmain%2Fposts%2Fdetail%2Fdetail.html%7Cxrt%7Cb1620869047937e0f0g0h12i13k13l61m66u6490v6048w6048T-69z11I1M-829181705%7Cxcs%7C85%7Cxce%7C85%2C2%7C81%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1620869048030%7C1620869048146%7Cdn%7C1023%7Cxu%7C%2Ftemplates%2Fmain%2Fposts%2Fcommon%2Fpost-metadata.html%7Cxrt%7Cb1620869048055e0f0g0h0i0k1l24m26u1164v723w723T-70z11I1M-1008893727%7Cxcs%7C116%7Cxce%7C116%2C2%7C82%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1620869048032%7C1620869048177%7Cdn%7C1030%7Cxu%7C%2Ftemplates%2Fmain%2Fposts%2Fcommon%2Fpost-actions.html%7Cxrt%7Cb1620869048057e0f0g0h0i0k1l26m31u3462v3022w3022T-71z11I1M-140233870%7Cxcs%7C145%7Cxce%7C145%2C2%7C83%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1620869048042%7C1620869048284%7Cdn%7C1030%7Cxu%7C%2Fplatform%2Fapi%2Fv3%2Fforms%2F2%2Fstages%7Cxrt%7Cb1620869048059e0f0g0h1i2k2l117m130u1236v833w833T-72z11I1M-1556152153%7Cxcs%7C241%7Cxce%7C242%2C2%7C84%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1620869048045%7C1620869048063%7Cdn%7C980%7Cxu%7C%2Fplatform%2Fapi%2Fv3%2Fforms%2F2%2Fattributes%7Cxcs%7C18%7Cxce%7C18%2C2%7C85%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1620869048047%7C1620869048293%7Cdn%7C1030%7Cxu%7C%2Fplatform%2Fapi%2Fv3%2Fposts%2F1774%2Fgeojson%7Cxrt%7Cb1620869048060e0f0g0h2i2k2l118m129u417v55w55T-73z11I1M927459129%7Cxcs%7C246%7Cxce%7C246%2C2%7C86%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1620869048181%7C1620869048303%7Cdn%7C1030%7Cxu%7C%2Ftemplates%2Fmain%2Fposts%2Fcommon%2Fcollection-toggle%2Fcollection-toggle-link.html%7Cxrt%7Cb1620869048197e0f0g0h0i0k3l29m31u747v306w306T-74z11I1M-2034438365%7Cxcs%7C122%7Cxce%7C122%2C2%7C87%7Cg1.5.8%7Cxhr%7Cg1.5.8%7C1620869048287%7C1620869048325%7Cdn%7C1038%7Cxu%7C%2Ftemplates%2Fmain%2Fposts%2Fdetail%2Fpost-value.html%7Cxrt%7Cb1620869048291e0f0g0h0i0k2l30m32u1076v637w637T-75z11I1M661217891%7Cxcs%7C37%7Cxce%7C38%2C1%7C88%7C_event_%7C1620869047928%7C_view_%7Csvn%7C%2Fposts%2Fcreate%2F2%7Csvt%7C1620869030583$svrid=2$rId=RID_432760405$rpId=-1012062015$domR=1620869000295$tvn=%2Fposts%2F1774$tvt=1620869047928$ni=4g|10$url=http%3A%2F%2F54.158.203.46%2Fposts%2F1774$title=foo%20-%20Neotys%20demonstration%20application$sUrl=http%3A%2F%2F54.158.203.46%2Fposts%2Fcreate%2F2$sTitle=Create%20Post%20-%20Neotys%20demonstration%20application$latC=1$app=ea7c4b59f27d43eb$visitID=NBOGUBPAURHPUFCGPGTUOULKUSKKKTAR-0$vs=2$fId=268999403_832$v=10215210506134512$vID=16184504849114EVV887FQ9OMU35II8U1IAL7GNJUUPEC$time=1620869048533]]></textPostContent>
+</http-action>
